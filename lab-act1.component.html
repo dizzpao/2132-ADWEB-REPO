@@ -1,0 +1,144 @@
+<h1>HAU GRADEBOOK</h1>
+  <li class="bg-warning"></li>
+  <li class="bg-danger"></li>
+  
+<br>
+
+
+
+<div class="container-sm" >
+  
+
+    <div class="row">
+      <div class="p-3 mb-2 bg-secondary bg-gradient text-white">Data Binding Activity</div>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Input </h5>
+              <p class="card-text">Name: <input type="text" [(ngModel)]="studName" /></p>
+              <p class="card-text">Subject: <input type="text" [(ngModel)]="studSubject" /></p>
+              <p>Prelim: <input type="number" [(ngModel)]="pre" class="form-control" placeholder="Prelim" /> </p>
+              <p>Midterm: <input type="number" [(ngModel)]="mid" class="form-control" placeholder="Midterm" /> </p>
+              <p>Final: <input type="number" [(ngModel)]="fil" class="form-control" placeholder="Final" /> </p>
+              
+              
+
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Results</h5>
+              <p>Prelim Grade: {{pre}} </p>
+              <p>Midterm Grade: {{mid}} </p>
+              <p>Final Grade: {{fil}} </p>
+              <p class="card-text">Good Morning, {{studName}}, your final Average for {{studSubject}} is {{(pre+mid+fil)/3}}</p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+</div>
+<br>
+<li class="bg-warning">
+<li class="bg-danger">
+
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted">
+  <!-- Section: Social media -->
+  <section
+    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+  >
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>LAUS DEO SEMPER</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Core Values
+          </h6>
+          <p>
+            We will be guided by our core values of Christ-centeredness, integrity, excellence, community, and societal responsibility. All these we shall do for the greater glory of God.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Links
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Online Application</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">About HAU</a>
+          </p>
+         
+        </div>
+  
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Contact
+          </h6>
+          <p><i class="fas fa-home me-3"></i>#1 Holy Angel Avenue, Sto. Rosario, Angeles City Philippines</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            (+63) 045-888-2902
+          </p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2022 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">HAU.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
